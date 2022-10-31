@@ -1,0 +1,192 @@
+* {
+    /*margin: 10px; /*margin establece el margen para los cuatro lados*/
+    padding: 0; /*padding establece el espacio de relleno*/
+    /*background-color:rgb(145, 95, 139); /*cambia el color de relleno*/
+    box-sizing: border-box;
+    
+}
+
+html {
+
+    font-size: 1rem;
+    height: 100%;
+}
+
+body, header, main, footer {
+    border: 5px solid rgb(47, 2, 28);
+    min-height: 50px;
+    margin: 0.5rem;
+    min-width: 400px;
+
+}
+
+body {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #aa4c97;
+
+}
+
+header {
+
+    background-color: white;
+
+}
+
+.header-logo {
+    width:auto;
+    display: inline;
+    margin: 0.5rem;
+
+}
+
+.header-menubar {
+left: auto;
+position: relative;
+top: auto;
+width: auto;
+display: inline-block;
+margin: 0.05rem 0 0.5rem 1rem
+
+}
+
+.header-menubar ul {
+list-style: none;
+}
+
+.header-menubar li {
+
+    float: left;
+    font-weight: 600;
+    text-align: center;
+    padding: 00.5rem;
+}
+
+.header-menubar {   
+left: auto;
+top: auto;
+width: auto;
+display: inline-block
+
+}
+
+
+main {
+    min-height: 300px;
+    overflow: auto;
+    background-color: #83106a;
+    
+    }
+
+    
+.contenido-ppal {
+    min-height: 180px;
+    margin: 0.5rem;
+    height: auto;
+    float: left;
+    
+}
+
+.form
+
+        
+    #submit {
+        width:85px;
+        height:20px;
+        border:none;
+        margin-top:20px;
+        cursor:pointer;
+    }
+
+
+
+
+.secciones {
+    min-height: 50px;
+    margin: 0,5rem;
+    color: white;
+    border: 2px rgb(255, 255, 255);
+    
+}
+
+
+.aside {
+
+    
+    margin: 0,5rem;
+    color: rgb(14, 10, 10);
+           
+}
+
+#map {
+
+    height: 200px;
+    width: 100;
+      
+}
+
+
+
+footer {
+        background-color: white;
+        min-height: 60px;
+        
+        }
+        .container-f {
+            
+                    
+        }
+        
+        .pie-pagina {
+        
+            color: #83106a;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            justify-content: center;
+            display: flex;
+            padding: 0;
+           
+        }
+        
+        .redes {
+        
+            color: #83106a;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            justify-content: center;
+            left: auto;
+            position: relative;
+            top: auto;
+            width: auto;
+            display: inline-block;
+            margin: 0.5 0.5
+            
+        }
+        
+        .redes ul{
+        
+            list-style: none;
+            text-align: center;
+        }
+        
+        .redes li{
+        
+            float:left;
+            font-weight: 500;
+            padding: 20px;
+                        
+        
+        }
+        
+        
+    #Titulo {
+            color: white;
+            text-align: center;
+            
+            }
+            
+    #frase {
+            
+                font-family: 'Dancing Script', cursive;
+                color: aliceblue;
+                text-align: center;
+                font-size:x-large;
+
